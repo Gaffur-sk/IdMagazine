@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/idmagazine" mode="merge"/>
+    <filter root="/content/idmagazine" mode="merge"/>
+    <filter root="/content/dam/idmagazine" mode="merge">
+        <exclude pattern="/content/dam/idmagazine(/.*)?"/>
+        <include pattern="/content/dam/idmagazine/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/idmagazine/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/idmagazine" mode="merge"/>
+</workspaceFilter>
